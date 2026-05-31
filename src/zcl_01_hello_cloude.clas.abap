@@ -20,6 +20,7 @@ CLASS zcl_01_hello_cloude IMPLEMENTATION.
 
     method if_oo_adt_classrun~main.
         out->write( 'Hello Cloud 2' ).
+        out->write( 'Prueba de github' ).
     endmethod.
 
 ENDCLASS.
